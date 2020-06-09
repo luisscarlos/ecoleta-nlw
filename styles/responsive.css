@@ -1,4 +1,5 @@
 @media (max-width: 900px) {
+  /* home page */
   #page-home {
     background-position-x: 70vw;
   }
@@ -18,6 +19,47 @@
 
   #page-home main {
     align-items: center;
+  }
+
+  /* search-results page */
+  #page-search-results .cards{
+    grid-template-columns: 1fr;
+  }
+
+  #page-search-results .cards img {
+    height: 250px;
+  }
+
+  /* create-point page */
+  #page-create-point form h1 {
+    color: #2fb86e;
+    font-size: 25px;
+  }
+
+  #page-create-point form h2 {
+    font-size: 20px;
+  }
+
+  #page-create-point form .field {
+    max-width: 350px;
+  }
+
+  #page-create-point form .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point form .field-group .field + .field {
+    margin-left: 0;
+  }
+
+  #page-create-point .items-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 350px;
+  }
+
+  #page-create-point button {
+    width: 900px;
+    max-width: 350px;
   }
 }
 
